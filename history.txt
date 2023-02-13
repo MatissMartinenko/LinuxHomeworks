@@ -1,0 +1,81 @@
+   0 whoami
+   1 pwd
+   2 cd
+   3 cd ..
+   4 ls
+   5 cd
+   6 ls
+   7 --help
+   8 ls --help
+   9 -a
+  10 ls -a
+  11 ls -1
+  12 ls -l
+  13 ls -la
+  14 cd /home
+  15 pwd
+  16 mkdir
+  17 user1
+  18 pwd
+  19 user1
+  20 mk dir
+  21  user1
+  22 pwd
+  23 ls
+  24 cd t:
+  25 touch
+  26 touch file.txt
+  27 cd ..
+  28 tree
+  29 history
+  30 cd /home
+  31 tree
+  32 ls --help
+  33 ls -R
+  34 mkdir user1
+  35 mkdir user2
+  36 ls
+  37 cd user2
+  38 mkdir task2
+  39 ls
+  40 task2
+  41 ls
+  42 user2 /task2
+  43 cd /task2
+  44 cd task2
+  45 touch file.txt
+  46 touch file2.txt
+  47 tree /home
+  48 cd
+  49 mkdir /home/user3
+  50 ls /home
+  51 mkdir /home/user3/task3
+  52 touch /home/user3/task3/file.txt
+  53 tree /home
+  54 tree /home/
+  55 mkdir --help
+  56 mkdir -p /home/user4/task4
+  57 ls
+  58 touch /home/user4/task4/file.txt
+  59 tree /home
+  60 mkdir -p /home/user5/task5/ && touch /home/user5/file5.txt
+  61 tree /home
+  62 cd ..
+  63 mkdir -p /home/user5/task5/ && touch /home/user5/file5.txt
+  64 mkdir -p /home/user6/task6/ touch
+  65 tree /home
+  66 ls
+  67 mkdir -p /tmp/1 /opt/2 /run/3
+  68 tree /home
+  69 cp /home/user2/task2/file2.txt /opt/2.txt
+  70 cp /home/user2/ /opt
+  71 cp -r /home/user2 /opt
+  72 mv /home/user3/file3.txt /opt/3.txt
+  73 ls
+  74 l
+  75 mv /opt/2.txt /opt/ivan.txt
+  76 rmdir
+  77 rm -rr /opt/user2
+  78 tree /home
+  79 history
+  80 history >history.txt
