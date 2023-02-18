@@ -1,0 +1,25 @@
+   0 cd /home
+   1 mkdir /animals
+   2 cd /animals
+   3 mkdir /dogs /cats /fish
+   4 cd /dogs
+   5 touch /pluto.txt
+   6 cd /cats
+   7 tuch /garfield.txt
+   8 touch /garfield.txt
+   9 cd /fish
+  10 touch /nemo.txt
+  11 cd /tmp
+  12 touch /adam.txt
+  13 cp /adam.txt /home -p /humans
+  14 cp -p /adam.txt /home /humans
+  15 cd /home
+  16 mkdir /humans
+  17 cd /tmp
+  18 cp /tmp /adam.txt /home /humans /adam.txt
+  19 history
+  20 history >history.txt
+  21 tree /home
+  22 cd /root
+  23 history
+localhost:~# history >history.txt
