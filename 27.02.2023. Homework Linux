@@ -1,0 +1,16 @@
+0 cd /home
+   1 mkdir /user
+   2 cd /user
+   3 mkdir /start
+   4 cd /start
+   5 touch /1.txt
+   6 echo "Start" > 1.txt
+   7 date >> 1.txt
+   8 cd /opt
+   9 mkdir /task
+  10 cd /task
+  11 cp /root/home/user/start/1.txt /opt/task/start.txt
+  12 cp /root/home/user/start/1.txt /root/opt/task/1.txt
+  13 mv /root/home/user/start/1.txt /opt/task/1.txt
+  14 mv /root/home/user/start/1.txt /root/opt/task/start.txt
+  15 history
